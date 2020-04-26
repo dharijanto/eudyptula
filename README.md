@@ -47,3 +47,7 @@ Since people say that the best way to learn something is by teaching it, I'm
 going one step further by attempting to post a theory and explanation behind each
 of the challenges. The explanations would be found on each of the challenges
 individual folders.
+
+## Progress
+
+- 2020-04-26: Task 1 write up explanation is completed

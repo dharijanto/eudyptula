@@ -39,15 +39,17 @@ the theory needed to do it.
 After lots of searching, I finally found out Eudyptula Challenge, which
 is a coding-oriented challenges whose goal is to each its participants
 to learn Linux kernel. Its website is already closed for new participants,
-but fortunately there were some good people out there who posted the challanges
-and theri questions to the challenges up for free on GitHub, such as
-Vitaly Osipov [https://github.com/agelastic/eudyptula]
+but fortunately there were some good people out there who posted the challenges
+and their solutions to the challenges up for free on GitHub
 
 Since people say that the best way to learn something is by teaching it, I'm
 going one step further by attempting to post a theory and explanation behind each
 of the challenges. The explanations would be found on each of the challenges
 individual folders.
 
+This repository and the solution inside is forked out of [Vitaly Osipov's](https://github.com/agelastic/eudyptula). What I'm doing is understanding his solutions, modifying it as I see fit, and finally adding written explanation on top of it.
+
 ## Progress
 
 - 2020-04-26: Task 1 write up explanation is completed
+- 2020-04-29: Task 2 write up explanation is completed

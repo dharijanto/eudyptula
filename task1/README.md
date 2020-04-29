@@ -36,7 +36,8 @@ implementations that many of regular users wouldn't ever need to use.
 
 ## Further Readings
 
-- Chapter 2 of Linux Device Drivers, Third edition (LDD3) [https://lwn.net/Kernel/LDD3/]
+- [Chapter 2 of Linux Device Drivers, Third edition (LDD3)](https://lwn.net/Kernel/LDD3/)
+- [Arch Wiki: Compiling Kernel Module](https://wiki.archlinux.org/index.php/Compile_kernel_module)
 
 ## Implementation Details
 

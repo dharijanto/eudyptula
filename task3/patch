@@ -1,0 +1,28 @@
+From 721d3444432edc810eb2a356c4923cef3763cf84 Mon Sep 17 00:00:00 2001
+From: Denny Harijanto <denny@nusantara-cloud.com>
+Date: Thu, 30 Apr 2020 22:04:07 +0800
+Subject: [PATCH] Adding "eudyptula" Suffix onto EXTRAVERSION
+
+To indicate that the kernel is built for eudyptula project.
+
+Signed-off-by: Denny Harijanto <denny@nusantara-cloud.com>
+---
+ Makefile | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Makefile b/Makefile
+index 49b2709ff..f565d77c0 100644
+--- a/Makefile
++++ b/Makefile
+@@ -2,7 +2,7 @@
+ VERSION = 5
+ PATCHLEVEL = 7
+ SUBLEVEL = 0
+-EXTRAVERSION = -rc2
++EXTRAVERSION = -rc2-eudyptula
+ NAME = Kleptomaniac Octopus
+ 
+ # *DOCUMENTATION*
+-- 
+2.26.0
+

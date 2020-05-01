@@ -231,5 +231,16 @@ reasons we can't boot, we can revert it back. After that, run grub-mkconfig agai
 sudo grub-mkconfig | sudo tee /boot/grub/grub.cfg
 ```
 
-After that, try to reboot, and when GRUB UI prompts for kernel version
-to choose, pick our compiled one.
+After that, try to reboot, and when the GRUB UI shows up prompting for kernel version to choose, pick the correct one, and see if it boots successfully and
+that the system is usable. Finally, double check that the kernel being runned
+is the right version:
+
+```bash
+uname -a
+```
+
+Which would give something like:
+
+```text
+Linux aharijanto-S3 5.7.0-rc2-gb2768df24 #1 SMP PREEMPT Sun Apr 26 23:21:40 +08 2020 x86_64 GNU/Linux
+```

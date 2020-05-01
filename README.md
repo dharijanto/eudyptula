@@ -30,6 +30,8 @@ I searched around forums to go about learning Linux kernel, and found out people
 books, online readings, etc. They are all awesome, but for me it's just really boring
 to focus merely on theory without practice.
 
+## My Contribution
+
 I am a big believer that the best way to get into something
 is by getting one's hands wet. Which means instead of learning the theory
 and then put it in practice, it's the other way around. First I'd figure out
@@ -44,12 +46,13 @@ and their solutions to the challenges up for free on GitHub
 
 Since people say that the best way to learn something is by teaching it, I'm
 going one step further by attempting to post a theory and explanation behind each
-of the challenges. The explanations would be found on each of the challenges
-individual folders.
+of the challenges.
 
-This repository and the solution inside is forked out of [Vitaly Osipov's](https://github.com/agelastic/eudyptula). What I'm doing is understanding his solutions, modifying it as I see fit, and finally adding written explanation on top of it.
+This repository and the solution inside is forked out of [Vitaly Osipov's](https://github.com/agelastic/eudyptula). What I'm doing is understanding his solutions, modifying it as I see fit, and finally adding written explanation on top of it. The explanations can be found on each of the challenges
+individual folders (i.e. task1/)
 
 ## Progress
 
-- 2020-04-26: Task 1 write up explanation is completed
-- 2020-04-29: Task 2 write up explanation is completed
+- 2020-04-26: Task 1 write up added
+- 2020-04-29: Task 2 write up added
+- 2020-05-01: Task 3 write up added

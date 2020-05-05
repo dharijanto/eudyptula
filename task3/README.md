@@ -37,6 +37,7 @@ And as always, practice is the best way to learn.
 ### Recommended Readings
 
 - [Linux Kernel: Submitting Patches](https://www.kernel.org/doc/html/latest/process/submitting-patches.html)
+- [Linux Kernel: Development Process](https://www.kernel.org/doc/html/latest/process/1.Intro.html)
 
 ### Modiying EXTRAVERSION
 
@@ -66,4 +67,15 @@ in order to help with Linux kernel collaboration.
 Having seen how Git makes it easy to create patch for this
 particular task, be sure to read through the submission guideline before making contribution. I've heard stories about people having
 spent a lot of their time working on patches, ended up being disappointed because the maintainers wouldn't take the patches as
-they're not following the guildeline.
+they're not following the process described on the guildeline. Since
+Linux kernel has more than 10,000 contributors and consists of millions
+of lines of code, the kernel maintainer's life will be so much easier if
+all the contributors follow the process.
+
+If you're curious there's also another reading describing Linux kernel
+development process.
+[Kernel Development Process](https://www.kernel.org/doc/html/latest/process/1.Intro.html).
+Which describes how the collaborations between thousands of contributors is done. I personally found it fascinating to learn how the kernel is divided
+into different subsystems with independent maintainers, and how all the
+changes eventually percolates up to Linus Torvalds' source tree for merging.
+I'm sure there's so much you would learn from reading about it.

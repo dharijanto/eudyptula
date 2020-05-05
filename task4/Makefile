@@ -1,4 +1,4 @@
-obj-m += helloworld.o
+obj-m += coding_style.o
 KDIR := /lib/modules/$(shell uname -r)/build
 
 all:

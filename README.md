@@ -56,3 +56,4 @@ individual folders (i.e. task1/)
 - 2020-04-26: Task 1 write up added
 - 2020-04-29: Task 2 write up added
 - 2020-05-01: Task 3 write up added
+- 2020-05-05: Task 4 write up added

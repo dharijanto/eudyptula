@@ -1,12 +1,7 @@
-CFLAGS_helloworld.o = -DDEBUG
+obj-m += usb-keyboard-module.o
+KDIR := /lib/modules/$(shell uname -r)/build
 
-obj-m += helloworld.o
-
-KDIR ?= /lib/modules/$(shell uname -r)/build
-# KDIR ?=../linux
-PWD := $(shell pwd)
-
-default:
+all:
 	$(MAKE) -C $(KDIR) M=$(PWD) modules
 clean:
 	$(MAKE) -C $(KDIR) M=$(PWD) clean

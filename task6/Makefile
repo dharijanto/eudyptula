@@ -1,6 +1,6 @@
-CFLAGS_helloworld.o = -DDEBUG
+CFLAGS_eudyptula.o = -DDEBUG
 
-obj-m += helloworld.o
+obj-m += eudyptula.o
 
 KDIR ?= /lib/modules/$(shell uname -r)/build
 # KDIR ?=../linux
